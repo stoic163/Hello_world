@@ -4,7 +4,7 @@
 #include<unistd.h>
 #include<string.h>
 
-int main(int argc, cahr *argv[])
+int main(int argc, char *argv[])
 {
   int pipe_fd[2];
   pid_t child_pid;
